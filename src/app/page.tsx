@@ -5,7 +5,7 @@ import AIFeatures from "@/components/sections/AIFeatures"
 import CTA from "@/components/sections/CTA"
 
 export const metadata: Metadata = {
-  title: "ProtoWeave - AI-Powered AEM Platform for Intelligent Digital Experiences1",
+  title: "ProtoWeave - AI-Powered AEM Platform for Intelligent Digital Experiences",
   description: "Transform your Adobe Experience Manager with AI capabilities. Automated content creation, intelligent asset management, design-to-code workflows, and real-time personalization.",
 }
 
