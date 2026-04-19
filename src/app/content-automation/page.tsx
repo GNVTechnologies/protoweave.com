@@ -4,8 +4,8 @@ import { ArrowRight, FileText, RefreshCw, CheckCircle, Search, Shield, TrendingU
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Content Automation & QA - ProtoWeave AI",
-  description: "Automated content creation, updates, and quality assurance. Intelligent content lifecycle management with real-time SEO optimization and brand governance.",
+  title: "Content Automation and QA - ProtoWeave",
+  description: "Improve content production, QA, governance, and optimization workflows for enterprise teams managing AEM content operations.",
 }
 
 export default function ContentAutomation() {
@@ -25,13 +25,12 @@ export default function ContentAutomation() {
               </span>
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-xl leading-8 text-gray-600 dark:text-gray-300">
-              Streamline your content operations with AI-powered automation. From creation to quality assurance, 
-              manage your entire content lifecycle with intelligent workflows that ensure consistency, compliance, and optimization.
+              Help content teams move faster with structured workflows for creation, review, optimization, and governance across the full publishing lifecycle.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Button size="lg" asChild>
-                <Link href="/signup">
-                  Automate Content Workflow
+                <Link href="/signup?source=content-automation-page&feature=content-automation">
+                  Request Content Operations Demo
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -45,10 +44,10 @@ export default function ContentAutomation() {
         <div className="container px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-              Complete Content Lifecycle Management
+              Content Operations Across the Full Lifecycle
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              AI-powered automation for every stage of your content journey
+              Evaluate how ProtoWeave reduces manual work across planning, creation, QA, and optimization.
             </p>
           </div>
 
@@ -134,10 +133,10 @@ export default function ContentAutomation() {
           <div className="mx-auto max-w-4xl">
             <div className="text-center mb-16">
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-                Intelligent Content Workflow
+                  Structured Content Workflow
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300">
-                See how AI transforms your content operations from creation to optimization
+                  See how ProtoWeave supports content teams from planning through continuous optimization.
               </p>
             </div>
 
@@ -361,11 +360,10 @@ export default function ContentAutomation() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl p-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-              Ready to Automate Your Content Operations?
+              See Content Automation in a Product Demo
             </h2>
             <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-              Transform your content workflow with AI-powered automation. Create, optimize, and manage content 
-              at scale while maintaining quality and brand consistency.
+              Review how ProtoWeave supports content creation, QA, SEO checks, and governance inside your enterprise publishing workflow.
             </p>
             <Button 
               size="lg" 
@@ -373,8 +371,8 @@ export default function ContentAutomation() {
               className="bg-white text-purple-600 hover:bg-gray-100"
               asChild
             >
-              <Link href="/signup">
-                Start Content Automation
+              <Link href="/signup?source=content-automation-page&feature=content-automation">
+                Schedule Content Demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

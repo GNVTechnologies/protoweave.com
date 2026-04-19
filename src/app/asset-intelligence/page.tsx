@@ -4,8 +4,8 @@ import { ArrowRight, Tag, Brain, Search, FileText, Zap, Shield } from "lucide-re
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Asset Intelligence & Tagging - ProtoWeave AI",
-  description: "AI-powered metadata generation and asset classification for AEM. Automatically organize and tag your content library with intelligent semantic understanding.",
+  title: "Asset Intelligence and Tagging - ProtoWeave",
+  description: "Automate metadata generation, classification, and asset discovery for AEM teams with governed asset operations workflows.",
 }
 
 export default function AssetIntelligence() {
@@ -21,17 +21,16 @@ export default function AssetIntelligence() {
               </span>
               <br />
               <span className="text-gray-900 dark:text-white">
-                & AI-Powered Tagging
+                and Metadata Operations
               </span>
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-xl leading-8 text-gray-600 dark:text-gray-300">
-              Transform your content library with AI-driven metadata generation and intelligent asset classification. 
-              Automatically organize, tag, and discover your digital assets with semantic understanding.
+              Help DAM and content teams standardize tagging, automate metadata enrichment, and improve asset discoverability across large AEM libraries.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Button size="lg" asChild>
-                <Link href="/signup">
-                  Start AI Tagging
+                <Link href="/signup?source=asset-intelligence-page&feature=asset-intelligence">
+                  Request Asset Intelligence Demo
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -45,10 +44,10 @@ export default function AssetIntelligence() {
         <div className="container px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-              Intelligent Asset Management
+              Governed Asset Operations
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              Leverage AI to automatically understand, categorize, and tag your digital assets
+              Reduce manual library work with repeatable workflows for enrichment, classification, compliance, and discovery.
             </p>
           </div>
 
@@ -239,11 +238,10 @@ export default function AssetIntelligence() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl p-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-              Ready to Unlock Your Asset Intelligence?
+              See Asset Intelligence in a Product Demo
             </h2>
             <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-              Transform your AEM asset management with AI-powered tagging and classification. 
-              Start organizing your content library intelligently today.
+              Review how ProtoWeave handles metadata generation, compliance checks, and large-scale asset operations inside your AEM workflow.
             </p>
             <Button 
               size="lg" 
@@ -251,8 +249,8 @@ export default function AssetIntelligence() {
               className="bg-white text-purple-600 hover:bg-gray-100"
               asChild
             >
-              <Link href="/signup">
-                Get Started with Asset AI
+              <Link href="/signup?source=asset-intelligence-page&feature=asset-intelligence">
+                Schedule Asset Demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
