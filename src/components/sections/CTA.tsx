@@ -58,8 +58,8 @@ export default function CTA({
               className="bg-white text-purple-600 hover:bg-gray-100"
               asChild
             >
-              <Link href="/signup">
-                Start Building Now
+              <Link href="/signup?source=homepage-cta&feature=platform-overview">
+                Schedule Product Demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
