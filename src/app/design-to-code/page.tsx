@@ -1,11 +1,11 @@
 import { Metadata } from "next"
 import { Button } from "@/components/ui/button"
-import { ArrowRight, Code, Figma, Image, MessageSquare, Zap, CheckCircle } from "lucide-react"
+import { ArrowRight, Figma, Image, MessageSquare, Zap, CheckCircle } from "lucide-react"
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Design to AEM Components - ProtoWeave",
-  description: "Generate production-ready AEM components from design inputs with workflows built for enterprise delivery standards and implementation teams.",
+  title: "Workflow Integration and Orchestration - ProtoWeave",
+  description: "Orchestrate content operations from design inputs through metadata automation, QA governance, and personalization workflows across CMS platforms.",
 }
 
 export default function DesignToCode() {
@@ -17,20 +17,20 @@ export default function DesignToCode() {
           <div className="mx-auto max-w-4xl text-center">
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl mb-6">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">
-                Design to AEM
+                Workflow Integration
               </span>
               <br />
               <span className="text-gray-900 dark:text-white">
-                Component Generation
+                for Content Operations
               </span>
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-xl leading-8 text-gray-600 dark:text-gray-300">
-              Turn approved designs, mockups, and requirements into production-ready AEM components with workflows aligned to Adobe standards, authoring needs, and enterprise implementation practices.
+              Connect design inputs, content workflows, and governance checks into one repeatable operating model that supports modern CMS teams.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Button size="lg" asChild>
                 <Link href="/signup?source=design-to-code-page&feature=design-to-code">
-                  Request Design-to-Code Demo
+                  Request Workflow Integration Demo
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -44,10 +44,10 @@ export default function DesignToCode() {
         <div className="container px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-              Multiple Ways to Generate Components
+              Multiple Inputs, One Orchestrated Workflow
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              Evaluate how ProtoWeave converts design inputs into implementation-ready AEM output.
+              Bring in design context and requirements, then automate metadata, content quality, and optimization-ready outputs.
             </p>
           </div>
 
@@ -60,12 +60,12 @@ export default function DesignToCode() {
                 Figma Designs
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                Import directly from Figma and convert designs into pixel-perfect AEM components with proper styling and structure.
+                Import approved design context and structure so downstream workflows can preserve consistency across content operations.
               </p>
               <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-2">
-                <li>• Preserves design system tokens</li>
-                <li>• Maintains responsive breakpoints</li>
-                <li>• Extracts component variants</li>
+                <li>• Preserves design system signals</li>
+                <li>• Maps reusable experience patterns</li>
+                <li>• Supports governed workflow handoff</li>
               </ul>
             </div>
 
@@ -77,12 +77,12 @@ export default function DesignToCode() {
                 Image Uploads
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                Upload any design image or mockup and our AI will analyze and recreate it as a functional AEM component.
+                Upload mockups or campaign visuals to trigger metadata enrichment and content operations workflows.
               </p>
               <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-2">
                 <li>• Supports all image formats</li>
-                <li>• Recognizes UI patterns</li>
-                <li>• Generates semantic HTML</li>
+                <li>• Extracts semantic metadata signals</li>
+                <li>• Supports taxonomy and tagging automation</li>
               </ul>
             </div>
 
@@ -94,12 +94,12 @@ export default function DesignToCode() {
                 Text Prompts
               </h3>
               <p className="text-gray-600 dark:text-gray-300 mb-6">
-                Describe your component in natural language and watch as AI generates the complete AEM component structure.
+                Define content intent, governance rules, or personalization goals in natural language to guide workflow outputs.
               </p>
               <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-2">
                 <li>• Natural language processing</li>
-                <li>• Context-aware generation</li>
-                <li>• Iterative refinement</li>
+                <li>• Context-aware workflow recommendations</li>
+                <li>• Iterative refinement for operations teams</li>
               </ul>
             </div>
           </div>
@@ -111,10 +111,10 @@ export default function DesignToCode() {
         <div className="container px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-              Enterprise-Ready Code Generation
+              Enterprise Workflow Controls
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              Generated components follow Adobe best practices and enterprise standards
+              Run automation with governance, quality, and optimization guardrails built in.
             </p>
           </div>
 
@@ -126,10 +126,10 @@ export default function DesignToCode() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                    Adobe Best Practices
+                    Metadata Governance
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Every generated component follows AEM coding standards, includes proper annotations, and uses recommended patterns.
+                    Enforce taxonomy, tagging quality, and metadata standards consistently across growing content libraries.
                   </p>
                 </div>
               </div>
@@ -140,10 +140,10 @@ export default function DesignToCode() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                    Responsive & Accessible
+                    QA and Compliance Checks
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Generated components are mobile-first, responsive, and include proper ARIA attributes for accessibility compliance.
+                    Apply repeatable checks for quality, brand alignment, and compliance before publishing.
                   </p>
                 </div>
               </div>
@@ -154,10 +154,10 @@ export default function DesignToCode() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                    Content Model Integration
+                    Personalization Readiness
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Automatically generates content models, dialogs, and authoring interfaces for seamless AEM integration.
+                    Structure content and audience signals so teams can activate targeted experiences with less manual setup.
                   </p>
                 </div>
               </div>
@@ -168,10 +168,10 @@ export default function DesignToCode() {
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                    Version Control Ready
+                    Cross-Platform Fit
                   </h3>
                   <p className="text-gray-600 dark:text-gray-300">
-                    Clean, documented code that integrates seamlessly with your existing version control and deployment workflows.
+                    Keep workflows portable across CMS and publishing environments as your platform mix evolves.
                   </p>
                 </div>
               </div>
@@ -179,32 +179,32 @@ export default function DesignToCode() {
 
             <div className="bg-gray-50 dark:bg-gray-800 rounded-xl p-8">
               <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-6">
-                Generated Component Includes:
+                Workflow Outputs Include:
               </h3>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
-                  <Code className="w-5 h-5 text-purple-600" />
-                  <span className="text-gray-700 dark:text-gray-300">HTL (Sightly) Templates</span>
+                  <CheckCircle className="w-5 h-5 text-purple-600" />
+                  <span className="text-gray-700 dark:text-gray-300">Metadata recommendations and tagging rules</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Code className="w-5 h-5 text-purple-600" />
-                  <span className="text-gray-700 dark:text-gray-300">Sling Models & Java Classes</span>
+                  <CheckCircle className="w-5 h-5 text-purple-600" />
+                  <span className="text-gray-700 dark:text-gray-300">Content QA checkpoints and issue flags</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Code className="w-5 h-5 text-purple-600" />
-                  <span className="text-gray-700 dark:text-gray-300">CSS/SCSS Stylesheets</span>
+                  <CheckCircle className="w-5 h-5 text-purple-600" />
+                  <span className="text-gray-700 dark:text-gray-300">Governance controls and approval guidance</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Code className="w-5 h-5 text-purple-600" />
-                  <span className="text-gray-700 dark:text-gray-300">JavaScript/ClientLibs</span>
+                  <CheckCircle className="w-5 h-5 text-purple-600" />
+                  <span className="text-gray-700 dark:text-gray-300">Personalization-ready audience and intent signals</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Code className="w-5 h-5 text-purple-600" />
-                  <span className="text-gray-700 dark:text-gray-300">Dialog & Content Policies</span>
+                  <CheckCircle className="w-5 h-5 text-purple-600" />
+                  <span className="text-gray-700 dark:text-gray-300">Optimization and performance recommendations</span>
                 </div>
                 <div className="flex items-center space-x-3">
-                  <Code className="w-5 h-5 text-purple-600" />
-                  <span className="text-gray-700 dark:text-gray-300">Unit Tests & Documentation</span>
+                  <CheckCircle className="w-5 h-5 text-purple-600" />
+                  <span className="text-gray-700 dark:text-gray-300">Operational summaries for cross-team handoff</span>
                 </div>
               </div>
             </div>
@@ -217,10 +217,10 @@ export default function DesignToCode() {
         <div className="container px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl text-center">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">
-              Seamless Pipeline Integration
+              Cross-System Integration
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-12">
-              ProtoWeave integrates with your existing development workflow and deployment pipelines
+              Keep content, governance, and optimization workflows connected across your existing tools.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -229,22 +229,22 @@ export default function DesignToCode() {
                   <Zap className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                  Code Migration
+                  CMS Connectivity
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Automated migration of legacy components to modern AEM standards with minimal manual intervention.
+                  Connect to current CMS and publishing environments without forcing teams to rebuild operating models.
                 </p>
               </div>
 
               <div className="text-center">
                 <div className="w-16 h-16 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg flex items-center justify-center mx-auto mb-4">
-                  <Code className="w-8 h-8 text-white" />
+                  <MessageSquare className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                  Version Upgrades
+                  Governance Automation
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Automatic updates and upgrades for component code when new AEM versions or best practices are released.
+                  Keep review, quality, and compliance workflows consistent as teams and channels scale.
                 </p>
               </div>
 
@@ -253,10 +253,10 @@ export default function DesignToCode() {
                   <CheckCircle className="w-8 h-8 text-white" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                  Quality Assurance
+                  Optimization Feedback Loop
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Built-in code quality checks, performance optimization, and security validation for all generated components.
+                  Feed performance and personalization signals back into planning to improve future campaign execution.
                 </p>
               </div>
             </div>
@@ -269,10 +269,10 @@ export default function DesignToCode() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl p-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-              See Design-to-Code in a Product Demo
+              See Workflow Integration in a Product Demo
             </h2>
             <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-              Review how ProtoWeave handles component generation, content models, and delivery readiness across your design-to-development workflow.
+              Review how ProtoWeave connects metadata automation, content governance, and personalization workflows across your content stack.
             </p>
             <Button 
               size="lg" 
@@ -281,7 +281,7 @@ export default function DesignToCode() {
               asChild
             >
               <Link href="/signup?source=design-to-code-page&feature=design-to-code">
-                Schedule Design-to-Code Demo
+                Schedule Workflow Demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

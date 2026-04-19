@@ -5,24 +5,24 @@ import { BarChart3, Briefcase, Building2, Shield } from "lucide-react"
 
 const outcomes = [
   {
-    title: "Faster Component Delivery",
-    description: "Reduce the time between design approval and AEM implementation with repeatable component generation workflows.",
+    title: "Faster Metadata and Asset Operations",
+    description: "Reduce time spent on manual tagging and classification with repeatable metadata automation workflows.",
   },
   {
     title: "Less Manual Content Operations",
     description: "Automate metadata, content QA, and routine publishing tasks that usually slow down content teams.",
   },
   {
-    title: "More Governed Rollouts",
-    description: "Standardize how teams review, approve, and operationalize changes across enterprise digital programs.",
+    title: "More Effective Personalization",
+    description: "Improve segment targeting and experience optimization with structured, governance-aware personalization workflows.",
   },
 ]
 
 const audiences = [
   {
     icon: Building2,
-    title: "For AEM Platform Teams",
-    description: "Evaluate how ProtoWeave supports component delivery, implementation consistency, and release readiness.",
+    title: "For CMS Platform Teams",
+    description: "Evaluate how ProtoWeave improves asset operations, workflow consistency, and release readiness across platforms.",
   },
   {
     icon: Briefcase,

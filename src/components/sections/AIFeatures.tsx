@@ -11,8 +11,8 @@ const features = [
   },
   {
     icon: Code,
-    title: "Design-System to AEM Delivery",
-    description: "Turn approved designs, prompts, and patterns into production-ready AEM components aligned to your implementation standards."
+    title: "Workflow Orchestration",
+    description: "Connect workflows across design, content, and publishing systems with consistent process controls and reduced manual handoffs."
   },
   {
     icon: FileText,
@@ -31,8 +31,8 @@ const features = [
   },
   {
     icon: Zap,
-    title: "Pipeline and Team Integration",
-    description: "Fit ProtoWeave into existing delivery pipelines, implementation workflows, and cross-functional operating models."
+    title: "Governance and Team Enablement",
+    description: "Standardize quality checks, approvals, and operating rules so teams can scale confidently without losing consistency."
   }
 ]
 
@@ -51,7 +51,7 @@ export default function AIFeatures() {
             How ProtoWeave Fits Enterprise Delivery
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            ProtoWeave supports the operational work behind modern AEM programs, from component generation to governed content workflows and rollout planning.
+            ProtoWeave supports the operational work behind modern CMS programs, from asset intelligence and metadata automation to governed content workflows and personalization.
           </p>
         </motion.div>
 

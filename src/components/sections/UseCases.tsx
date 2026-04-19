@@ -7,28 +7,28 @@ import Link from "next/link"
 const useCases = [
   {
     title: "Asset Intelligence & Tagging",
-    description: "AI-powered metadata generation and asset classification. Automatically organize and tag your content library with intelligent semantic understanding.",
+    description: "Automated metadata generation, classification, and tagging workflows that make large content libraries easier to govern and search.",
     icon: "/images/ai-assistance.svg",
     link: "/asset-intelligence",
     demoLink: "/signup?source=use-cases&feature=asset-intelligence"
   },
   {
-    title: "Design to AEM Components",
-    description: "Generate production-ready AEM components from Figma designs, images, or prompts. Built following Adobe best practices with automated code migration support.",
+    title: "Workflow Integration & Orchestration",
+    description: "Connect content operations to your design systems, publishing flow, and team processes without disrupting existing platforms.",
     icon: "/images/code-automation.svg",
     link: "/design-to-code",
     demoLink: "/signup?source=use-cases&feature=design-to-code"
   },
   {
     title: "Content Automation & QA",
-    description: "Automated content creation, updates, and quality assurance. Intelligent content lifecycle management with real-time SEO optimization and brand governance.",
+    description: "Automate content creation, updates, and quality checks with governance controls for brand, compliance, and consistency.",
     icon: "/images/generate-components.svg",
     link: "/content-automation",
     demoLink: "/signup?source=use-cases&feature=content-automation"
   },
   {
-    title: "AI-Driven Personalization",
-    description: "Real-time content personalization and contextualization. Platform-independent AI assistance that adapts experiences based on user behavior and preferences.",
+    title: "Personalization & Optimization",
+    description: "Adapt content and experiences by segment and behavior, then optimize continuously with actionable performance signals.",
     icon: "/images/workflow.svg",
     link: "/personalization",
     demoLink: "/signup?source=use-cases&feature=personalization"
@@ -50,7 +50,7 @@ export function UseCases() {
             Product Capabilities by Workflow
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300">
-            Evaluate the modules that reduce manual delivery work across design systems, assets, content, and personalization.
+            Evaluate how ProtoWeave improves asset intelligence, content governance, and personalization outcomes across your CMS ecosystem.
           </p>
         </motion.div>
 

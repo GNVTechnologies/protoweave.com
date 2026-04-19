@@ -6,8 +6,8 @@ import EnterpriseOutcomes from "@/components/sections/EnterpriseOutcomes"
 import CTA from "@/components/sections/CTA"
 
 export const metadata: Metadata = {
-  title: "ProtoWeave - Product Workflows for AEM Teams",
-  description: "Accelerate AEM delivery with component generation, asset operations, content automation, and governed enterprise workflows.",
+  title: "ProtoWeave - Intelligent Workflow Automation for CMS Teams",
+  description: "Automate asset intelligence, metadata, content QA and governance, and personalization workflows across modern CMS environments.",
 }
 
 export default function Home() {
@@ -19,7 +19,7 @@ export default function Home() {
       <EnterpriseOutcomes />
       <CTA 
         customTitle="Ready to Evaluate ProtoWeave for Your Team?" 
-        customDescription="See the product capabilities, workflow fit, and rollout approach that matter most to your AEM program." 
+        customDescription="See the product capabilities, workflow fit, and rollout approach that matter most to your content and experience program." 
       />
     </main>
   )

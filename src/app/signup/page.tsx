@@ -7,16 +7,16 @@ import { CheckCircle2, ExternalLink, Mail, ShieldCheck, PlugZap, ServerCog, User
 import { motion } from "framer-motion"
 
 const demoHighlights = [
-  "Design-to-code workflows for AEM components",
   "Asset intelligence and metadata automation",
   "Content automation with QA and governance",
   "Personalization and experience optimization",
+  "Cross-platform workflow integration for modern CMS teams",
 ]
 
 const featureLabels: Record<string, string> = {
   "platform-overview": "Platform overview",
   "asset-intelligence": "Asset intelligence and tagging",
-  "design-to-code": "Design-to-code for AEM components",
+  "design-to-code": "Workflow integration and orchestration",
   "content-automation": "Content automation and QA",
   "personalization": "Personalization and optimization",
 }
@@ -25,12 +25,12 @@ const demoAgenda = [
   {
     step: "1",
     title: "Product Walkthrough",
-    description: "See how ProtoWeave handles component generation, asset enrichment, and content workflows end to end.",
+    description: "See how ProtoWeave handles asset intelligence, metadata enrichment, and content workflows end to end.",
   },
   {
     step: "2",
     title: "Use Case Mapping",
-    description: "Review the product features that best fit your current AEM delivery, content, and personalization priorities.",
+    description: "Review the product features that best fit your content operations, governance, and personalization priorities.",
   },
   {
     step: "3",
@@ -53,7 +53,7 @@ const trustSignals = [
   {
     icon: PlugZap,
     title: "Integration Fit",
-    description: "Understand how ProtoWeave fits with AEM, design systems, and existing content operations.",
+    description: "Understand how ProtoWeave fits with your CMS, design systems, and existing content operations.",
   },
   {
     icon: ServerCog,
@@ -69,7 +69,7 @@ const trustSignals = [
 
 const qualificationPrompts = [
   "Which product area you want to evaluate first",
-  "Your current stack, team ownership, or AEM setup",
+  "Your current CMS stack and team ownership",
   "The workflow bottleneck or rollout goal you want to solve",
 ]
 
@@ -163,7 +163,7 @@ function SignUpContent() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            Request a focused demo of the product capabilities that help enterprise teams accelerate AEM delivery, automate workflows, and improve content operations.
+            Request a focused demo of the product capabilities that help enterprise teams automate metadata and content operations while improving personalization outcomes.
           </motion.p>
         </div>
 

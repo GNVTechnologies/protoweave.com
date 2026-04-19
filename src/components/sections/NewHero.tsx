@@ -22,11 +22,11 @@ export default function NewHero() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <span className="inline-block bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">
-              Product Workflows for AEM Teams
+              Intelligent Content Workflows
             </span>
             <br />
             <span className="text-gray-900 dark:text-white">
-              from Design to Content Delivery
+              for Modern CMS Teams
             </span>
           </motion.h1>
           <motion.p 
@@ -35,7 +35,7 @@ export default function NewHero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            ProtoWeave helps enterprise teams generate AEM-ready components, automate asset and content operations, and ship governed experiences faster across the full delivery lifecycle.
+            ProtoWeave helps teams automate asset intelligence and metadata, streamline content operations with QA and governance, and optimize personalized experiences across channels.
           </motion.p>
           <motion.div 
             className="mt-10 flex items-center justify-center gap-x-6"
