@@ -25,7 +25,7 @@ export default function DesignToCode() {
               </span>
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-xl leading-8 text-gray-600 dark:text-gray-300">
-              Connect design inputs, content workflows, and governance checks into one repeatable operating model that supports modern CMS teams.
+              Connect design inputs, content workflows, and governance checks into one repeatable operating model that supports modern marketing and content operations teams.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Button size="lg" asChild>

@@ -6,7 +6,7 @@ import EnterpriseOutcomes from "@/components/sections/EnterpriseOutcomes"
 import CTA from "@/components/sections/CTA"
 
 export const metadata: Metadata = {
-  title: "ProtoWeave - Intelligent Workflow Automation for CMS Teams",
+  title: "ProtoWeave - Intelligent Workflow Automation for Marketing Teams",
   description: "Automate asset intelligence, metadata, content QA and governance, and personalization workflows across modern CMS environments.",
 }
 
