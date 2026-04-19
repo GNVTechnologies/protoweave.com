@@ -47,10 +47,10 @@ export function UseCases() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            AI-Powered AEM Capabilities
+            Product Capabilities by Workflow
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300">
-            Transform your Adobe Experience Manager with intelligent automation and AI-driven workflows
+            Evaluate the modules that reduce manual delivery work across design systems, assets, content, and personalization.
           </p>
         </motion.div>
 

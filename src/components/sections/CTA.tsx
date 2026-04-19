@@ -11,8 +11,8 @@ interface CTAProps {
 }
 
 export default function CTA({
-  customTitle = "Ready to Transform Your Development Workflow?",
-  customDescription = "Join developers who are saving hours of development time with ProtoWeave's automated component generation."
+  customTitle = "See How ProtoWeave Fits Your Delivery Stack",
+  customDescription = "Book a product demo tailored to your AEM workflows, governance model, and rollout priorities."
 }: CTAProps) {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8">

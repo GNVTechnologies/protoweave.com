@@ -4,8 +4,8 @@ import { ArrowRight, Code, Figma, Image, MessageSquare, Zap, CheckCircle } from 
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "Design to AEM Components - ProtoWeave AI",
-  description: "Generate production-ready AEM components from Figma designs, images, or prompts. Built following Adobe best practices with automated code migration support.",
+  title: "Design to AEM Components - ProtoWeave",
+  description: "Generate production-ready AEM components from design inputs with workflows built for enterprise delivery standards and implementation teams.",
 }
 
 export default function DesignToCode() {
@@ -25,13 +25,12 @@ export default function DesignToCode() {
               </span>
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-xl leading-8 text-gray-600 dark:text-gray-300">
-              Transform any design into production-ready AEM components instantly. From Figma mockups to natural language prompts, 
-              our AI generates code that follows Adobe best practices and integrates seamlessly with your workflow.
+              Turn approved designs, mockups, and requirements into production-ready AEM components with workflows aligned to Adobe standards, authoring needs, and enterprise implementation practices.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Button size="lg" asChild>
-                <Link href="/signup">
-                  Start Generating Components
+                <Link href="/signup?source=design-to-code-page&feature=design-to-code">
+                  Request Design-to-Code Demo
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -48,7 +47,7 @@ export default function DesignToCode() {
               Multiple Ways to Generate Components
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              Create AEM components from any design source with AI-powered code generation
+              Evaluate how ProtoWeave converts design inputs into implementation-ready AEM output.
             </p>
           </div>
 
@@ -270,11 +269,10 @@ export default function DesignToCode() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl p-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-              Ready to Accelerate Your Development?
+              See Design-to-Code in a Product Demo
             </h2>
             <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-              Transform designs into production-ready AEM components in minutes, not hours. 
-              Start building faster with AI-powered code generation.
+              Review how ProtoWeave handles component generation, content models, and delivery readiness across your design-to-development workflow.
             </p>
             <Button 
               size="lg" 
@@ -282,8 +280,8 @@ export default function DesignToCode() {
               className="bg-white text-purple-600 hover:bg-gray-100"
               asChild
             >
-              <Link href="/signup">
-                Start Building Components
+              <Link href="/signup?source=design-to-code-page&feature=design-to-code">
+                Schedule Design-to-Code Demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

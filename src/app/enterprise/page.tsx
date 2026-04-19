@@ -48,13 +48,13 @@ export default function EnterprisePage() {
             className="text-center mb-16"
           >
             <h1 className="text-4xl sm:text-5xl font-bold mb-6">
-              Enterprise-Grade{" "}
+              Enterprise-Ready{" "}
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">
-                AI Solutions
+                Product Workflows
               </span>
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Transform your organization with secure, scalable, and customizable AI-powered solutions backed by enterprise-level support and services.
+              Evaluate ProtoWeave with the security, deployment, governance, and support considerations enterprise teams need before rollout.
             </p>
           </motion.div>
 
@@ -89,16 +89,16 @@ export default function EnterprisePage() {
             className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl p-12 text-center"
           >
             <h2 className="text-3xl font-bold text-white mb-6">
-              Ready to Scale Your AI Initiative?
+              Ready to Evaluate Enterprise Fit?
             </h2>
             <p className="text-xl text-purple-100 max-w-2xl mx-auto mb-8">
-              Get in touch with our enterprise team to discuss your specific needs and requirements.
+              Talk with our team about deployment options, governance requirements, and the product workflows that matter to your program.
             </p>
             <a
-              href="/signup"
+              href="/signup?source=enterprise-page&feature=platform-overview"
               className="inline-block bg-white text-purple-600 px-8 py-4 rounded-lg font-semibold hover:bg-purple-50 transition-colors"
             >
-              Contact Enterprise Sales
+              Schedule Enterprise Demo
             </a>
           </motion.div>
         </div>

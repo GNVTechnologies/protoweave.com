@@ -6,33 +6,33 @@ import { Brain, Code, FileText, Target, Search, Zap } from "lucide-react"
 const features = [
   {
     icon: Brain,
-    title: "Asset Classification & Tagging",
-    description: "AI-backed metadata generation with intelligent semantic understanding for comprehensive content organization."
+    title: "Metadata and Asset Operations",
+    description: "Automate asset classification, tagging, and enrichment so teams spend less time managing libraries manually."
   },
   {
     icon: Code,
-    title: "Design to AEM Components",
-    description: "Generate production-ready AEM components from Figma designs, images, or prompts following Adobe best practices."
+    title: "Design-System to AEM Delivery",
+    description: "Turn approved designs, prompts, and patterns into production-ready AEM components aligned to your implementation standards."
   },
   {
     icon: FileText,
-    title: "Automated Content Management",
-    description: "Intelligent content creation, updates, and QA with automated lifecycle management and brand governance."
+    title: "Content Operations and QA",
+    description: "Accelerate content creation, updates, and review cycles with governance-aware automation and repeatable QA checks."
   },
   {
     icon: Search,
-    title: "SEO & Content Insights",
-    description: "Real-time SEO optimization with content insights and automated governance for maximum discoverability."
+    title: "SEO and Content Insights",
+    description: "Surface optimization opportunities, content gaps, and quality signals earlier in the publishing workflow."
   },
   {
     icon: Target,
-    title: "Real-time Personalization",
-    description: "AI-assisted personalization that adapts experiences based on user behavior across any platform."
+    title: "Personalization Workflows",
+    description: "Support targeted experience delivery with reusable patterns for segmentation, testing, and experience optimization."
   },
   {
     icon: Zap,
-    title: "Pipeline Integration",
-    description: "Seamless code migration, upgrades, and customization with full pipeline integration support."
+    title: "Pipeline and Team Integration",
+    description: "Fit ProtoWeave into existing delivery pipelines, implementation workflows, and cross-functional operating models."
   }
 ]
 
@@ -48,11 +48,10 @@ export default function AIFeatures() {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Complete AI Integration for AEM
+            How ProtoWeave Fits Enterprise Delivery
           </h2>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            ProtoWeave brings comprehensive AI capabilities to your Adobe Experience Manager platform, 
-            from intelligent asset management to automated component generation.
+            ProtoWeave supports the operational work behind modern AEM programs, from component generation to governed content workflows and rollout planning.
           </p>
         </motion.div>
 

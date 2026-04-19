@@ -22,11 +22,11 @@ export default function NewHero() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <span className="inline-block bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">
-              AI-Powered Platform
+              Product Workflows for AEM Teams
             </span>
             <br />
             <span className="text-gray-900 dark:text-white">
-              for Next-Generation Experiences
+              from Design to Content Delivery
             </span>
           </motion.h1>
           <motion.p 
@@ -35,7 +35,7 @@ export default function NewHero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            ProtoWeave brings advanced AI capabilities to Your Digital Experience Manager, enabling automated content creation, intelligent asset management, and seamless design-to-code workflows that transform how teams build digital experiences.
+            ProtoWeave helps enterprise teams generate AEM-ready components, automate asset and content operations, and ship governed experiences faster across the full delivery lifecycle.
           </motion.p>
           <motion.div 
             className="mt-10 flex items-center justify-center gap-x-6"
@@ -50,7 +50,7 @@ export default function NewHero() {
               </Link>
             </Button>
             <Button variant="ghost" size="lg" asChild>
-              <Link href="#use-cases">See How It Works</Link>
+              <Link href="#use-cases">Explore Capabilities</Link>
             </Button>
           </motion.div>
         </motion.div>

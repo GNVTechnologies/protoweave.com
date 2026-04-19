@@ -4,8 +4,8 @@ import { ArrowRight, Target, Brain, Users, TrendingUp, Zap, Globe, FileText } fr
 import Link from "next/link"
 
 export const metadata: Metadata = {
-  title: "AI-Driven Personalization - ProtoWeave AI",
-  description: "Real-time content personalization and contextualization. Platform-independent AI assistance that adapts experiences based on user behavior and preferences.",
+  title: "Personalization Workflows - ProtoWeave",
+  description: "Support audience targeting, dynamic experiences, and optimization workflows with enterprise-ready personalization capabilities.",
 }
 
 export default function Personalization() {
@@ -17,21 +17,20 @@ export default function Personalization() {
           <div className="mx-auto max-w-4xl text-center">
             <h1 className="text-4xl font-bold tracking-tight sm:text-6xl mb-6">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">
-                AI-Driven
+                Personalization
               </span>
               <br />
               <span className="text-gray-900 dark:text-white">
-                Real-time Personalization
+                and Experience Optimization
               </span>
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-xl leading-8 text-gray-600 dark:text-gray-300">
-              Deliver hyper-personalized experiences that adapt in real-time to user behavior, preferences, and context. 
-              Our platform-independent AI ensures consistent personalization across all digital touchpoints.
+              Help digital teams adapt messaging, journeys, and experience rules using workflows built for targeting, testing, and operational consistency.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Button size="lg" asChild>
-                <Link href="/signup">
-                  Start Personalizing Experiences
+                <Link href="/signup?source=personalization-page&feature=personalization">
+                  Request Personalization Demo
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -45,10 +44,10 @@ export default function Personalization() {
         <div className="container px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-              Intelligent Personalization Engine
+              Personalization Capabilities for Enterprise Teams
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              AI that understands your users and adapts experiences in real-time
+              Evaluate how ProtoWeave supports segmentation, adaptive experiences, and optimization workflows.
             </p>
           </div>
 
@@ -278,10 +277,10 @@ export default function Personalization() {
         <div className="container px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-4xl text-center">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">
-              Platform-Independent AI
+              Deployment and Operational Fit
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-12">
-              Deploy personalization across any platform or technology stack with our unified AI engine
+              Review how personalization workflows fit across channels, privacy requirements, and your broader delivery stack.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -365,11 +364,10 @@ export default function Personalization() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="bg-gradient-to-r from-purple-600 to-pink-600 rounded-3xl p-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
-              Ready to Deliver Hyper-Personalized Experiences?
+              See Personalization Workflows in a Product Demo
             </h2>
             <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-              Transform user engagement with AI-driven personalization that adapts in real-time. 
-              Start creating experiences that truly resonate with each individual user.
+              Review how ProtoWeave supports targeting, journey optimization, and experimentation without adding operational sprawl.
             </p>
             <Button 
               size="lg" 
@@ -377,8 +375,8 @@ export default function Personalization() {
               className="bg-white text-purple-600 hover:bg-gray-100"
               asChild
             >
-              <Link href="/signup">
-                Launch Personalization AI
+              <Link href="/signup?source=personalization-page&feature=personalization">
+                Schedule Personalization Demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

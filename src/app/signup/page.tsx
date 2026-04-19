@@ -67,6 +67,12 @@ const trustSignals = [
   },
 ]
 
+const qualificationPrompts = [
+  "Which product area you want to evaluate first",
+  "Your current stack, team ownership, or AEM setup",
+  "The workflow bottleneck or rollout goal you want to solve",
+]
+
 export default function SignUp() {
   const searchParams = useSearchParams()
   const [tallyFormId, setTallyFormId] = useState<string | null>(
@@ -274,6 +280,24 @@ export default function SignUp() {
                   </div>
                 </div>
               ))}
+            </div>
+          </div>
+
+          <div className="border-t border-gray-200 dark:border-gray-700 pt-8 mt-8">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-4 text-center">
+              Helpful Details to Include in the Form
+            </h3>
+            <div className="rounded-xl border border-gray-200 dark:border-gray-700 bg-gray-50 dark:bg-gray-900 p-5">
+              <p className="text-sm text-gray-600 dark:text-gray-300 mb-4 text-center">
+                Tally is hosted outside this site, but the most useful demo requests usually include these details.
+              </p>
+              <div className="grid gap-3 sm:grid-cols-3">
+                {qualificationPrompts.map((item) => (
+                  <div key={item} className="rounded-lg bg-white dark:bg-gray-800 p-4 border border-gray-200 dark:border-gray-700">
+                    <p className="text-sm text-gray-700 dark:text-gray-200">{item}</p>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
 
