@@ -44,8 +44,8 @@ export default function NewHero() {
             transition={{ duration: 0.6, delay: 0.4 }}
           >
             <Button size="lg" asChild>
-              <Link href="/signup">
-                Start Building with AI
+              <Link href="/signup?source=hero&feature=platform-overview">
+                Schedule Product Demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>

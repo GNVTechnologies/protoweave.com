@@ -2,31 +2,36 @@
 
 import { motion } from "framer-motion"
 import Image from "next/image"
+import Link from "next/link"
 
 const useCases = [
   {
     title: "Asset Intelligence & Tagging",
     description: "AI-powered metadata generation and asset classification. Automatically organize and tag your content library with intelligent semantic understanding.",
     icon: "/images/ai-assistance.svg",
-    link: "/asset-intelligence"
+    link: "/asset-intelligence",
+    demoLink: "/signup?source=use-cases&feature=asset-intelligence"
   },
   {
     title: "Design to AEM Components",
     description: "Generate production-ready AEM components from Figma designs, images, or prompts. Built following Adobe best practices with automated code migration support.",
     icon: "/images/code-automation.svg",
-    link: "/design-to-code"
+    link: "/design-to-code",
+    demoLink: "/signup?source=use-cases&feature=design-to-code"
   },
   {
     title: "Content Automation & QA",
     description: "Automated content creation, updates, and quality assurance. Intelligent content lifecycle management with real-time SEO optimization and brand governance.",
     icon: "/images/generate-components.svg",
-    link: "/content-automation"
+    link: "/content-automation",
+    demoLink: "/signup?source=use-cases&feature=content-automation"
   },
   {
     title: "AI-Driven Personalization",
     description: "Real-time content personalization and contextualization. Platform-independent AI assistance that adapts experiences based on user behavior and preferences.",
     icon: "/images/workflow.svg",
-    link: "/personalization"
+    link: "/personalization",
+    demoLink: "/signup?source=use-cases&feature=personalization"
   }
 ]
 
@@ -77,7 +82,7 @@ export function UseCases() {
                 <p className="text-gray-600 dark:text-gray-300 mb-6 flex-grow">
                   {useCase.description}
                 </p>
-                <a
+                <Link
                   href={useCase.link}
                   className="text-purple-600 hover:text-purple-700 font-medium inline-flex items-center"
                 >
@@ -95,7 +100,26 @@ export function UseCases() {
                       d="M9 5l7 7-7 7"
                     />
                   </svg>
-                </a>
+                </Link>
+                <Link
+                  href={useCase.demoLink}
+                  className="mt-3 text-sm text-gray-700 dark:text-gray-200 hover:text-purple-600 dark:hover:text-purple-400 font-medium inline-flex items-center"
+                >
+                  Request this demo
+                  <svg
+                    className="w-4 h-4 ml-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </Link>
               </motion.div>
             </motion.div>
           ))}
