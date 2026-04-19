@@ -42,7 +42,7 @@ export function Nav() {
                     href="/design-to-code"
                     className="block px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-700"
                   >
-                    Design to AEM Components
+                    Workflow Integration
                   </Link>
                   <Link
                     href="/content-automation"
@@ -54,7 +54,7 @@ export function Nav() {
                     href="/personalization"
                     className="block px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 hover:bg-gray-50 dark:text-gray-300 dark:hover:text-white dark:hover:bg-gray-700"
                   >
-                    AI-Driven Personalization
+                    Personalization & Optimization
                   </Link>
                 </div>
               </div>

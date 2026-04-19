@@ -12,7 +12,7 @@ interface CTAProps {
 
 export default function CTA({
   customTitle = "See How ProtoWeave Fits Your Delivery Stack",
-  customDescription = "Book a product demo tailored to your AEM workflows, governance model, and rollout priorities."
+  customDescription = "Book a product demo focused on asset intelligence, content governance workflows, and personalization outcomes."
 }: CTAProps) {
   return (
     <section className="py-20 px-4 sm:px-6 lg:px-8">

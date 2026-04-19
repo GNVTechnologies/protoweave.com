@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "Asset Intelligence and Tagging - ProtoWeave",
-  description: "Automate metadata generation, classification, and asset discovery for AEM teams with governed asset operations workflows.",
+  description: "Automate metadata generation, classification, and asset discovery for CMS teams with governed asset operations workflows.",
 }
 
 export default function AssetIntelligence() {
@@ -25,7 +25,7 @@ export default function AssetIntelligence() {
               </span>
             </h1>
             <p className="mx-auto mt-6 max-w-2xl text-xl leading-8 text-gray-600 dark:text-gray-300">
-              Help DAM and content teams standardize tagging, automate metadata enrichment, and improve asset discoverability across large AEM libraries.
+              Help DAM and content teams standardize tagging, automate metadata enrichment, and improve asset discoverability across large multi-channel libraries.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Button size="lg" asChild>
@@ -220,10 +220,10 @@ export default function AssetIntelligence() {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">
-                      AEM Integration
+                      Cross-CMS Integration
                     </h3>
                     <p className="text-gray-600 dark:text-gray-300">
-                      Seamlessly integrates with your existing AEM workflows and enhances native DAM capabilities.
+                      Seamlessly integrates with existing CMS and DAM workflows while improving discoverability and governance.
                     </p>
                   </div>
                 </div>
@@ -241,7 +241,7 @@ export default function AssetIntelligence() {
               See Asset Intelligence in a Product Demo
             </h2>
             <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-              Review how ProtoWeave handles metadata generation, compliance checks, and large-scale asset operations inside your AEM workflow.
+              Review how ProtoWeave handles metadata generation, compliance checks, and large-scale asset operations across your content stack.
             </p>
             <Button 
               size="lg" 

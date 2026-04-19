@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "Content Automation and QA - ProtoWeave",
-  description: "Improve content production, QA, governance, and optimization workflows for enterprise teams managing AEM content operations.",
+  description: "Improve content production, QA, governance, and optimization workflows for enterprise teams managing modern CMS content operations.",
 }
 
 export default function ContentAutomation() {
@@ -44,7 +44,7 @@ export default function ContentAutomation() {
         <div className="container px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4">
-              Content Operations Across the Full Lifecycle
+              Content Operations Across the Lifecycle
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300">
               Evaluate how ProtoWeave reduces manual work across planning, creation, QA, and optimization.

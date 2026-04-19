@@ -11,9 +11,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ProtoWeave - Automated Component Generation & AEM Integration",
-  description: "Transform your designs into production-ready components with ProtoWeave. Automated component generation and seamless AEM integration for modern development workflows.",
-  keywords: ["component generation", "AEM integration", "design automation", "web development"],
+  title: "ProtoWeave - Asset Intelligence, Content Governance, and Personalization",
+  description: "Automate metadata and asset intelligence, streamline content QA and governance, and optimize personalization workflows across CMS platforms.",
+  keywords: ["asset intelligence", "metadata automation", "content governance", "personalization"],
 };
 
 export default function RootLayout({

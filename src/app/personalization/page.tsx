@@ -136,7 +136,7 @@ export default function Personalization() {
                 Multi-Dimensional Personalization
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300">
-                Personalize every aspect of the user experience with AI-driven insights
+                Personalize every stage of the experience with data-driven, operationally consistent workflows.
               </p>
             </div>
 
@@ -333,7 +333,7 @@ export default function Personalization() {
                 Measurable Personalization Impact
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-300">
-                See how AI-driven personalization transforms business outcomes
+                See how personalization workflows translate into measurable business outcomes.
               </p>
             </div>
 
