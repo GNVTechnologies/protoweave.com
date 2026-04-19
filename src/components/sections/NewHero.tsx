@@ -26,7 +26,7 @@ export default function NewHero() {
             </span>
             <br />
             <span className="text-gray-900 dark:text-white">
-              for Modern CMS Teams
+              for Modern Marketing Teams
             </span>
           </motion.h1>
           <motion.p 

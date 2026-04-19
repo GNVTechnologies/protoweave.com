@@ -10,7 +10,7 @@ const demoHighlights = [
   "Asset intelligence and metadata automation",
   "Content automation with QA and governance",
   "Personalization and experience optimization",
-  "Cross-platform workflow integration for modern CMS teams",
+  "Cross-platform workflow integration for modern marketing and content operations teams",
 ]
 
 const featureLabels: Record<string, string> = {

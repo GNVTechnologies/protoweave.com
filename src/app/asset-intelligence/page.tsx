@@ -5,7 +5,7 @@ import Link from "next/link"
 
 export const metadata: Metadata = {
   title: "Asset Intelligence and Tagging - ProtoWeave",
-  description: "Automate metadata generation, classification, and asset discovery for CMS teams with governed asset operations workflows.",
+  description: "Automate metadata generation, classification, and asset discovery for marketing and content operations teams with governed asset workflows.",
 }
 
 export default function AssetIntelligence() {

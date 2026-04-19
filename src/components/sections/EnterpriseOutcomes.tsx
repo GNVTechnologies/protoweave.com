@@ -21,7 +21,7 @@ const outcomes = [
 const audiences = [
   {
     icon: Building2,
-    title: "For CMS Platform Teams",
+    title: "For Marketing and Content Operations Teams",
     description: "Evaluate how ProtoWeave improves asset operations, workflow consistency, and release readiness across platforms.",
   },
   {
