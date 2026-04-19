@@ -1,6 +1,6 @@
 'use client'
 
-import { useEffect, useState } from "react"
+import { Suspense, useEffect, useState } from "react"
 import { useSearchParams } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { CheckCircle2, ExternalLink, Mail, ShieldCheck, PlugZap, ServerCog, Users } from "lucide-react"
@@ -73,7 +73,7 @@ const qualificationPrompts = [
   "The workflow bottleneck or rollout goal you want to solve",
 ]
 
-export default function SignUp() {
+function SignUpContent() {
   const searchParams = useSearchParams()
   const [tallyFormId, setTallyFormId] = useState<string | null>(
     process.env.NEXT_PUBLIC_TALLY_FORM_ID?.trim() || null
@@ -328,5 +328,13 @@ export default function SignUp() {
         </motion.div>
       </motion.div>
     </main>
+  )
+}
+
+export default function SignUp() {
+  return (
+    <Suspense fallback={<main className="flex min-h-screen flex-col pt-28 pb-16" />}>
+      <SignUpContent />
+    </Suspense>
   )
 }
