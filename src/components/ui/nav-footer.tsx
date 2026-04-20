@@ -5,9 +5,9 @@ import { ChevronDown } from "lucide-react"
 
 export function Nav() {
   return (
-    <header className="fixed top-0 w-full z-50 border-b bg-white/80 backdrop-blur-sm dark:bg-gray-950/80 dark:border-gray-800">
-      <div className="container flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
-        <div className="flex gap-6 md:gap-10 ml-4">
+    <header className="alex fixed top-0 w-full z-50 border-b bg-white/80 backdrop-blur-sm dark:bg-gray-950/80 dark:border-gray-800">
+      <div className="container mx-auto flex h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
+        <div className="flex gap-6 md:gap-10">
           <Link href="/" className="flex items-center space-x-2 group">
             <div className="w-8 h-8 relative transition-transform duration-300 group-hover:scale-110">
               <Image
@@ -92,7 +92,7 @@ export function Nav() {
 export function Footer() {
   return (
     <footer className="border-t bg-gray-50 dark:bg-gray-950 dark:border-gray-800">
-      <div className="container flex flex-col gap-4 py-10 md:h-24 md:flex-row md:py-0">
+      <div className="container mx-auto flex flex-col gap-4 py-10 md:h-24 md:flex-row md:py-0">
         <div className="flex flex-1 items-center justify-center gap-4 md:justify-start">
           <span className="text-sm text-gray-600 dark:text-gray-400">
             © {new Date().getFullYear()} ProtoWeave. All rights reserved.
