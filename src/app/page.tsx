@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="flex flex-col pt-16">
+    <main className="container mx-auto flex flex-col pt-16">
       <NewHero />
       <UseCases />
       <AIFeatures />
