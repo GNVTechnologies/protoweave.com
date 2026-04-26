@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function DesignToCode() {
   return (
-    <main className="flex flex-col pt-16">
+    <main className="container mx-auto flex flex-col pt-16">
       {/* Hero Section */}
       <section className="py-20 sm:py-32">
         <div className="container px-4 sm:px-6 lg:px-8">
