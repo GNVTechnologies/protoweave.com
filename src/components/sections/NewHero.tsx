@@ -22,11 +22,11 @@ export default function NewHero() {
             transition={{ duration: 0.6, delay: 0.2 }}
           >
             <span className="inline-block bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600">
-              Intelligent Content Workflows
+              AI-powered content operations
             </span>
             <br />
             <span className="text-gray-900 dark:text-white">
-              for Modern Marketing Teams
+              for enterprise CMS teams
             </span>
           </motion.h1>
           <motion.p 
@@ -35,7 +35,7 @@ export default function NewHero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            ProtoWeave helps teams automate asset intelligence and metadata, streamline content operations with QA and governance, and optimize personalized experiences across channels.
+            ProtoWeave helps enterprise content and marketing teams automate asset tagging, content QA, workflow orchestration, and personalization across complex CMS ecosystems.
           </motion.p>
           <motion.div 
             className="mt-10 flex items-center justify-center gap-x-6"
@@ -45,12 +45,12 @@ export default function NewHero() {
           >
             <Button size="lg" asChild>
               <Link href="/signup?source=hero&feature=platform-overview">
-                Schedule Product Demo
+                Schedule Demo
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
             </Button>
             <Button variant="ghost" size="lg" asChild>
-              <Link href="#use-cases">Explore Capabilities</Link>
+              <Link href="#use-cases">Explore Platform</Link>
             </Button>
           </motion.div>
         </motion.div>
