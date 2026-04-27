@@ -1,7 +1,8 @@
 'use client'
 
 import { motion } from "framer-motion"
-import { Pen, FolderOpen, FileText, Database, ShieldCheck, Users, Brain } from "lucide-react"
+import { Pen, FolderOpen, FileText, Database, ShieldCheck, Users } from "lucide-react"
+import Image from "next/image"
 
 function NodeCard({ icon: Icon, label }: { icon: React.ElementType; label: string }) {
   return (
@@ -64,13 +65,13 @@ export default function WorkflowDiagram() {
           </svg>
 
           {/* Center bar */}
-          <div className="bg-gradient-to-r from-violet-800 via-purple-700 to-purple-500 rounded-2xl px-6 py-4 sm:px-8 sm:py-5 grid grid-cols-[3.5rem_1fr_3.5rem] items-center gap-3 shadow-xl">
-            <div className="w-14 h-14 rounded-full bg-white/15 border border-white/20 flex items-center justify-center flex-shrink-0">
-              <Brain className="w-8 h-8 text-white" />
-            </div>
-            <span className="text-white font-bold text-xl lg:text-2xl text-center">ProtoWeave AI Workflow Layer</span>
-            <div className="w-14 h-14" aria-hidden="true" />
-          </div>
+          <Image
+            src="/workflow-center-bar.png"
+            alt="ProtoWeave AI Workflow Layer"
+            width={1328}
+            height={748}
+            className="w-full h-auto"
+          />
 
           {/* Bottom connectors: center splits to 3 */}
           {/* Column centers at 1/6, 3/6, 5/6 → 100, 300, 500 in 600-unit viewBox */}
