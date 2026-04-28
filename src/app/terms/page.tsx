@@ -32,7 +32,7 @@ const sections = [
   },
   {
     title: "Governing Law",
-    body: "These Terms are governed by the laws of the State of Connecticut, USA.",
+    body: "These Terms are governed by the laws of the State of Tennessee, USA, without regard to its conflict of law principles. Any disputes arising from these Terms shall be resolved in the state or federal courts located in Tennessee.",
   },
 ]
 
