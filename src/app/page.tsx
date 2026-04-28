@@ -1,6 +1,7 @@
 import { Metadata } from "next"
 import NewHero from "@/components/sections/NewHero"
 import WorkflowDiagram from "@/components/sections/WorkflowDiagram"
+import Testimonial from "@/components/sections/Testimonial"
 import { UseCases } from "@/components/sections/UseCases"
 import AIFeatures from "@/components/sections/AIFeatures"
 import EnterpriseOutcomes from "@/components/sections/EnterpriseOutcomes"
@@ -16,6 +17,7 @@ export default function Home() {
     <main className="container mx-auto flex flex-col pt-16">
       <NewHero />
       <WorkflowDiagram />
+      <Testimonial />
       <UseCases />
       <AIFeatures />
       <EnterpriseOutcomes />
