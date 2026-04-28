@@ -34,7 +34,7 @@ export default function Testimonial() {
                   onClick={() => setExpanded(true)}
                   className="text-purple-600 dark:text-purple-400 font-medium hover:underline focus:outline-none"
                 >
-                  ...more
+                  ...Read more
                 </button>
               </>
             )}
@@ -49,7 +49,7 @@ export default function Testimonial() {
                   style={{ overflow: "hidden", display: "block" }}
                 >
                   {" "}Their platform demonstrated a structured, scalable approach to content
-                  transformation — handling complex mappings, component alignment, and cross-CMS
+                  transformation - handling complex mappings, component alignment, and cross-CMS
                   migration with minimal friction. What started as a targeted implementation evolved
                   into a broader initiative, including Core CMS content migration into AEM. Protoweave
                   brings real engineering depth and a practical understanding of enterprise content
