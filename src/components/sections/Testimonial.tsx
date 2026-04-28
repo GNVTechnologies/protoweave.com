@@ -51,7 +51,7 @@ export default function Testimonial() {
                   {" "}Their platform demonstrated a structured, scalable approach to content
                   transformation - handling complex mappings, component alignment, and cross-CMS
                   migration with minimal friction. What started as a targeted implementation evolved
-                  into a broader initiative, including Core CMS content migration into AEM. Protoweave
+                  into a broader initiative, including Core CMS “Legacy CMS system” content migration into AEM. Protoweave
                   brings real engineering depth and a practical understanding of enterprise content
                   architectures, which significantly accelerated our delivery timeline.&rdquo;
                 </motion.span>
@@ -61,7 +61,7 @@ export default function Testimonial() {
           </blockquote>
 
           <p className="text-sm font-semibold text-gray-800 dark:text-gray-200">
-            Michel &mdash; Product, BBB
+            Michelle &mdash; Director, Product Management and QA, BBB
           </p>
         </motion.div>
       </div>
